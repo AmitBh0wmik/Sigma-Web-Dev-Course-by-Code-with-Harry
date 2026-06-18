@@ -1,0 +1,24 @@
+.firstclass {
+  background-color: blue;
+  color:yellow;
+
+}
+
+.seclass{
+  background-color: aqua;
+  color: green;
+} 
+
+
+
+
+
+#firstid {
+  background-color: red;
+  color: black;
+}
+
+#secid{
+  background-color: black;
+  color: white;
+}
