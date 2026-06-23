@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specificity</title>
+  <style>
+
+
+/* Element Selector */
+h1{
+ color: lightblue;
+}
+
+/* Class Selector */
+.cred{
+  color: red;
+}
+
+/* ID Selector */
+#blue{
+  color: blue;
+}
+
+/* Attribute Selector  */
+ [data-x=a]{
+  background-color: red;
+ }
+
+/* pseudo-class */
+a:hover{
+  background-color: red;
+}
+
+
+</style>
+</head>
+<body>
+  <div>
+    <h1 id="blue" class="cred" >CSS Specificity</h1>
+  </div>
+  <div>
+    <h2 data-x="a">This is second part of Selector</h2>
+  </div>
+
+  <div>
+    <a href="http://amitbhowmik.com">Amit portfolio</a>
+  </div>
+</body>
+</html>
+
