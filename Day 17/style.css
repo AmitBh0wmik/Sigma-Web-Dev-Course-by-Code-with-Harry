@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.class{
+  background-color: red;
+  color: white;
+}
+
+
+#id {
+  background-color: blue;
+  color: white;
+}
+
+
+/* Child Selector */
+div > p {
+  background-color: red;
+}
+
+/* Desendent Selector */
+
+div p {
+  background-color: aquamarine;
+}
+
+
+a:visited {
+  color: brown;
+}
+
+
+
+a:hover{
+  background-color: greenyellow;
+}
+
+
+p:nth-child(2) {
+  background-color: blueviolet;
+}
+
