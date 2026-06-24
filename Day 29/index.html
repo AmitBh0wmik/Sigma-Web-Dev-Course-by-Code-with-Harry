@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making a travel card</title>
+    <style>
+        .card{
+            height: 500px;
+            width: 300px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            translate: -50% -50%;
+            border: 1px solid blue;
+        }
+
+        img{
+            width: 300px;
+        }
+
+        div > span {
+            border: 2px solid blue;
+            position: relative;
+            left: 20px;
+        }
+
+        .para {
+            margin: 10px ;
+        }
+
+        .button {
+            position: absolute;
+            bottom: 5px;
+            left: 34%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="img">
+            <img src="img.jpg" alt="">
+        </div>
+        <div>
+            <span>nature</span>
+            <span>lake</span>
+        </div>
+        <div class="title">What a beautiful view of nature</div>
+        <div class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum eveniet asperiores maiores eius?
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
