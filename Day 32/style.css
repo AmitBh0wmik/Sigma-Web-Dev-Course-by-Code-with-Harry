@@ -1,0 +1,34 @@
+
+
+.main {
+  width: 300px;
+  height: 500px;
+  border: 0.3px solid purple;
+  border-radius: 5px;
+}
+
+.img img {
+  width: 263px;
+  margin-left: 18px;
+  margin-top: 12px;
+  border-radius: 10px;
+ 
+
+}
+
+.span span {
+  border: 3px solid rgb(50, 147, 166);
+  
+}
+
+.para {
+  margin: 12px;
+}
+
+div .button {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
