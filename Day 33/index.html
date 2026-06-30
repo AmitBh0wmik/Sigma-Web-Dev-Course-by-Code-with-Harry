@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eercise 4: multicolor navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        :root{
+            --maincolor:rgb(9, 44, 121);
+            --seccolor:rgb(192, 233, 146);
+        }
+
+        .nav ul {
+            background-color:var(--maincolor) ;
+            color: var(--seccolor);
+            list-style: none;
+            display: flex;
+            padding: 12px;
+        }
+
+        .nav ul li {
+                padding: 11px 164px 15px 169px;
+                font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+            <li>Project</li>
+        </ul>
+    </div>
+</body>
+</html>
