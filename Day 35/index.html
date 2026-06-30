@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selector</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box::first-line{
+            color: rgba(255, 30, 0, 0.589);
+        }      */
+
+       /* .boxes * {
+        color: blue;
+        border: 3px solid black;
+        margin: 3px;
+       } */
+
+       /* .box, p, a, [data-color="primary"]{
+            margin-top: 34px;
+        } */
+
+      /* .box:nth-child(even){
+            background-color: greenyellow;
+        }
+        .box:nth-child(odd){
+            background-color: rgb(189, 25, 204);
+        }  */
+
+         /* .box:nth-last-child(1){
+            background-color:blueviolet ;
+        } */
+
+         /* .boxes::before{
+            content:"sigma";
+            color: brown;
+        } */
+
+
+        /* .boxes::after{
+            content:"alpha";
+            color: pink;
+        }  */
+
+
+        ::selection {
+            color: rgb(60, 160, 214);
+            background-color: rgb(144, 81, 81);
+        }
+        .box::first-letter{
+            color: peru;
+            font-size: 32px;
+        }
+
+        input::placeholder{
+            color: rgb(174, 22, 22);
+            background-color: rgb(58, 215, 52);
+        }  
+
+
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey I am a box</div>
+
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aspernatur aut repellat maxime ducimus quos odio sit omnis, hic quam, totam molestiae ipsa explicabo similique ea animi esse! Quae, obcaecati. Ab alias magnam voluptas unde velit iusto neque eos temporibus modi ducimus reiciendis sunt ea tenetur est, aspernatur eligendi dolores obcaecati. Debitis, ad.</div>
+
+        <div class="box">Hey I am a box</div>
+    </div>
+
+    <input type="text" placeholder="Type your name here">
+</body>
+</html>
