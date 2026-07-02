@@ -1,0 +1,24 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  animation: move 2s infinite alternate;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
+}
